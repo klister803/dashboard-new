@@ -1,0 +1,62 @@
+.eventsList {
+  position: fixed;
+  max-width: 226px;
+  min-width: 226px;
+  width: 226px;
+  max-height: 233px;
+  height: 233px;
+  min-height: 233px;
+  padding-left: 16px;
+  padding-top: 2px;
+  margin: 0;
+  border-radius: 3px;
+  font-size: 11px;
+  font-family: Arial;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: none;
+}
+
+.eventsListButton {
+  position: fixed;
+  background: url(/assets/dashboard/images/bg_event.png) no-repeat top left;
+  width: 213px;
+  height: 30px;
+  margin-left: -1px;
+  margin-top: -3px;
+}
+
+.buttonEvent {
+  position: fixed;
+  width: 56px;
+  height: 20px;
+  text-align: center;
+  padding-top: 9px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 9px;
+  text-decoration: none;
+  font-family: Arial;
+  margin-left: -4px;
+  margin-top: -4px;
+  padding-right: 2px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.buttonEvent:nth-child(2) {
+  margin-left: 47px;
+}
+
+.buttonEvent:nth-child(3) {
+  margin-left: 99px;
+}
+
+.buttonEvent:nth-child(4) {
+  margin-left: 152px;
+}
+
+.buttonEvent.active {
+  color: rgba(255, 255, 255, 0.9);
+  background-repeat: no-repeat;
+  background-position: top center;
+}

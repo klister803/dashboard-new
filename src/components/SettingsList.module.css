@@ -1,0 +1,39 @@
+.settingsList {
+  display: none;
+}
+
+.settingsList table {
+  width: 100%;
+}
+
+.settingsList table tr td:last-child {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.settingsList table tr td:first-child {
+  padding-left: 20px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.settingsList table tr:first-child td {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.settingsList h3 {
+  font-size: 15px;
+  color: #e8b621;
+  padding: 0;
+  line-height: 100%;
+  margin: 0;
+  font-weight: 400;
+}
+
+.settingsList hr {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}

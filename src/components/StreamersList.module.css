@@ -1,0 +1,19 @@
+.streamersList {
+  position: fixed;
+  max-width: 226px;
+  min-width: 226px;
+  width: 226px;
+  max-height: 233px;
+  height: 233px;
+  min-height: 233px;
+  padding-left: 16px;
+  padding-top: 2px;
+  margin: 0;
+  border-radius: 3px;
+  font-size: 11px;
+  font-family: Arial;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: none;
+  color: #fff;
+}

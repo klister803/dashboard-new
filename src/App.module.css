@@ -1,0 +1,80 @@
+.dashboard {
+  background: url(/assets/dashboard/images/bg_new.jpg) repeat-y top center;
+  background-color: #1d1818;
+  width: 265px;
+  height: 390px;
+  margin: auto;
+}
+
+.header {
+  position: relative;
+  margin: 0 auto;
+  height: 80px;
+}
+
+.container {
+  background: url(/assets/dashboard/images/bg.png) no-repeat top center;
+  position: relative;
+  margin: 0 auto;
+  max-height: 247px;
+  max-width: 253px;
+  height: 260px;
+  padding: 0;
+  padding-top: 7px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.footer {
+  height: 42px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.buttonTop {
+  position: fixed;
+  width: 62px;
+  height: 38px;
+  margin-left: 16px;
+  margin-top: 50px;
+  z-index: 999;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.buttonTop:nth-child(2) {
+  margin-left: 74px;
+}
+
+.buttonTop:nth-child(3) {
+  margin-left: 132px;
+}
+
+.buttonTop:nth-child(4) {
+  margin-left: 190px;
+}
+
+.buttonTop.active {
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.buttonDown {
+  position: fixed;
+  width: 85px;
+  height: 35px;
+  text-align: center;
+  padding-top: 10px;
+  color: #e8b621;
+  font-size: 11px;
+  text-decoration: none;
+  font-family: Arial;
+  margin-left: 3px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.buttonDown:nth-child(3) {
+  margin-left: 157px;
+}

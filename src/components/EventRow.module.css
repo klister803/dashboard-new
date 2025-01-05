@@ -1,0 +1,45 @@
+.sortnr {
+  display: none;
+}
+
+.eventTimer {
+  text-align: right;
+}
+
+.timeOff {
+  border-radius: 3px;
+  padding: 1px 5px 3px;
+  background-color: #1e1e1e;
+}
+
+.timeOn {
+  border-radius: 3px;
+  padding: 1px 5px 3px;
+  background-color: #711d0d;
+}
+
+.eventText {
+  display: inline-block;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  position: relative;
+}
+
+.eventText:hover::after {
+  content: attr(data-fulltext);
+  position: absolute;
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+  z-index: 999;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
